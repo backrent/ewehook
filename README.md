@@ -2,7 +2,7 @@
 
 Control eWelink devices over webhooks.
 
-This solution addresses the integration of sonoff devices with Home Assistant.  These devices are cheap and readily available but require firmware flashing / brokers proving undesirable for some use cases.
+This solution addresses the integration of sonoff devices with Home Assistant.  These devices are cheap and readily available but require flashing / brokers proving undesirable for some use cases.
 
 ## Features
 
