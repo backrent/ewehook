@@ -7,7 +7,7 @@ This solution addresses the integration of sonoff devices with Home Assistant.  
 ## Features
 
 * No setup required other than providing environment variables
-* When eWelink devices are added or removed just delete and reinstall container
+* When eWelink devices are added or removed just delete and reinstall container.
 
 ## Config
 
