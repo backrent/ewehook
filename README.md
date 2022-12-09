@@ -22,7 +22,7 @@ This solution addresses the integration of sonoff devices with Home Assistant.  
 * ip [not required] - Providing your host ip allows webhook commands to be transfered directly.
 * port [not required] - Host port for convenience.
 
-Check the log for webhook commands once the container is running.  Transfer command to new terminal and verify. That's it!
+Check the log for webhook examples and run them in terminal to verify. That's it!
 
 ## FAQ
 How do I view the log?
