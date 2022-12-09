@@ -21,5 +21,7 @@ This solution addresses the integration of sonoff devices with Home Assistant.  
 
 Check the log for webhook commands once the container is running.  Transfer command to new terminal and verify. That's it!
 
-To view the log file:
+## FAQ
+How do I view the log?
+
 ```docker logs ewehook```
