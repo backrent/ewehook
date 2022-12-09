@@ -11,8 +11,11 @@ This solution addresses the integration of sonoff devices with Home Assistant.  
 
 ## Config
 
+### Docker Run Command:
+
 ```docker run -d -p "9090:9000" -e "email=a@a.com" -e "pass=1234" -e "safehook=true" -e "ip=192.168.1.111" -e "port=9090" --name ewehook backrent/ewehook:latest```
 
+### Environment Variables:
 * email [required] - eWeLink login credential
 * pass [required] - eWelinl login credential
 * safehook [not required] - Add random digits to webhooks for increased security.  Webhooks are like passwords and should be kept secret.
