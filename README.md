@@ -2,7 +2,7 @@
 
 Control eWelink devices over webhooks.
 
-This solution addresses the integration of sonoff devices with Home Assistant.  These devices are cheap and readily available but require firmware flashing and mqtt brokers proving undesirable in my use case.
+This solution addresses the integration of sonoff devices with Home Assistant.  These devices are cheap and readily available but require firmware flashing / brokers proving undesirable for some use cases.
 
 ## Features
 
@@ -16,7 +16,7 @@ This solution addresses the integration of sonoff devices with Home Assistant.  
 * email [required] - eWeLink login credential
 * pass [required] - eWelinl login credential
 * safehook [not required] - Add random digits to webhooks for increased security.  Webhooks are like passwords and should be kept secret.
-* ip [not required] - Providing your host ip allows webhook commands to be copy and pasted directly.
+* ip [not required] - Providing your host ip allows webhook commands to be transfered directly.
 * port [not required] - Host port for convenience.
 
 Check the log for webhook commands once the container is running.  Transfer command to new terminal and verify. That's it!
